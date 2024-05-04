@@ -51,9 +51,6 @@ button {
     
 }
 
-button :hover{
-    background-color: rgb(131, 0, 63);
-}
 
 table {
     color: white;
@@ -104,11 +101,31 @@ table td{
     border-radius: 20px;
 }
 
+#homephotos {
+    overflow: hidden;
+    margin: 0px auto;
+    margin-top: -160px;
+    height: 150px;
+    width: 350px;
+    border: white 3px solid;
+    border-radius: 20px;
+}
+
 img {
     margin-left: -30px;
     margin-top: -220px;
     width: 500px;
 }
+
+#homebutton {
+    margin: 20px;
+}
+
+#homebutton a button {
+    width: 50px;
+}
+
+
 
 /*golf page start*/
 
