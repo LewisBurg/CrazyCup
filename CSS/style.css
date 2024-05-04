@@ -1,0 +1,187 @@
+
+body{
+    background: linear-gradient(#105c2f, #051e0f);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    height: 830px;
+}
+
+main{
+    text-align: center;
+
+}
+
+
+header {
+    height: 120px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    font-size: 14pt;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(#109f4c, #095f2d) ;
+    border-radius: 2em;
+    font-weight: bold;
+    box-shadow: black 0px 5px 5px;
+}
+
+ul{
+    margin-top: 2em;
+    padding-left: 0px;
+}
+
+li{
+    padding-bottom: 2em;
+    list-style: none;
+    
+}
+
+button {
+    letter-spacing: 5px;
+    background: linear-gradient(#109f4c, #095f2d) ;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    font-size: 12pt;
+    transition: all 0.3s ease 0s;
+    box-shadow: black 0px 2px 2px;
+    
+    
+}
+
+button :hover{
+    background-color: rgb(131, 0, 63);
+}
+
+table {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+table td{
+    height: 20px;
+    padding: .7em;
+}
+
+.framenum{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 2em;
+}
+
+#triangle{
+    margin-top: 2em;
+    
+}
+
+.pins{
+    margin: 1.5em;
+    accent-color: rgb(249, 2, 122);
+}
+
+
+.scorebuttons{
+    margin: .25em;
+    margin-top: 2em;
+}
+
+.homenav {
+    height: 560px;
+}
+
+#photos {
+    overflow: hidden;
+    margin: auto;
+    margin-top: -90px;
+    height: 150px;
+    width: 350px;
+    border: white 3px solid;
+    border-radius: 20px;
+}
+
+img {
+    margin-left: -30px;
+    margin-top: -220px;
+    width: 500px;
+}
+
+/*golf page start*/
+
+#golftable{
+    border-radius: 1em;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+}
+
+#golftable caption{
+    margin-top: -1.85em;
+    border-radius: 1em;
+    font-weight: bold;
+    padding: 1em;
+    background: linear-gradient(#8edcae, #639c7b) ;  
+}
+
+#golftable tr{
+    border-radius: 1em;
+    padding: 0px;
+}
+
+#golftable td{
+    border-radius: 1em;
+    padding: 0px;
+}
+
+.holenum{
+    font-weight: bold;
+    width: 4em;
+    height: 3em;
+    background: linear-gradient(#8edcae, #70aa88) ;  
+}
+
+.parcol{
+    background: linear-gradient(#109f4c, #0b7738) ;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+#th{
+    font-weight: bold;
+    background-color: #5399ca;
+}
+
+.scrinput{
+    position: relative;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 18pt;
+    width: 2.5em ;
+    height: 2em;
+    background: linear-gradient(#8edcae, #70aa88) ;  
+    color: white;
+}
+
+.scorecol{
+    width: 4em;
+}
+
+#total{
+    font-size: 20pt;
+    background-color: rgb(255, 255, 255);  
+    border: #5399ca 2px solid;
+}
+
+#nav{
+    margin-top: -1.5em;
+}
+
+
+
+
+
+
