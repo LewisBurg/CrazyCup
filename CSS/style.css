@@ -1,10 +1,18 @@
 
+html {
+    height: 100%;
+}
+
 body{
-    background: linear-gradient(#505c2f, #051e0f);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#205c2f, #051e0f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: sans-serif;
     letter-spacing: 3px;
-    height: 830px;
-}
+    }
 
 main{
     text-align: center;
@@ -137,7 +145,7 @@ img {
 }
 
 #golftable caption{
-    margin-top: -1.85em;
+    margin-top: 5px;
     border-radius: 1em;
     font-weight: bold;
     padding: 1em;
@@ -194,7 +202,8 @@ img {
 }
 
 #nav{
-    margin-top: -1.5em;
+    margin-top: 0px;
+    padding-bottom: 20px;
 }
 
 
